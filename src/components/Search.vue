@@ -28,5 +28,30 @@ export default {
 </script>
 
 <style>
-
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding: 20px;
+  background-color: #355e3f;
+  box-sizing: border-box;
+}
+ 
+ 
+.text {
+  width: 50%;
+  max-width: 300px;
+  padding: 12px;
+  border: none;
+}
+ 
+ 
+.submit {
+  padding: .5em 2em;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #d33e10;
+  border: none;
+  border-radius: 20px;
+}
 </style>
